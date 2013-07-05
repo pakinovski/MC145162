@@ -1,0 +1,31 @@
+*** Creating Trace Output File 'spi.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"lpc17xx_spi.o"'
+### List of Objects: adding '"lpc17xx_ssp.o"'
+### List of Objects: adding '"lpc17xx_clkpwr.o"'
+### List of Objects: adding '"lpc17xx_libcfg_default.o"'
+### List of Objects: adding '"lpc17xx_uart.o"'
+### List of Objects: adding '"retarget.o"'
+### List of Objects: adding '"serial.o"'
+### List of Objects: adding '"lpc17xx_pinsel.o"'
+### List of Objects: adding '"hardware.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "core_cm3.o" "main.o" "system_lpc17xx.o" "lpc17xx_spi.o" "lpc17xx_ssp.o" "lpc17xx_clkpwr.o" "lpc17xx_libcfg_default.o" "lpc17xx_uart.o" "retarget.o" "serial.o" "lpc17xx_pinsel.o" "hardware.o" --strict --scatter "spi.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\spi.map" -o "spi.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'spi.axf'
+### ADS-LD Command File: 'spi.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'spi.lnp', Handle=0x000002A8
+### Writing '.lnp' file
+### ADS-LD Command file 'spi.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
